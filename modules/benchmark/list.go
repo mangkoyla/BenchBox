@@ -32,4 +32,22 @@ var BenchmarkList = []BenchmarkListType{
 		Port:           443,
 		ExpectedStatus: 200,
 	},
+	{
+		Name:           "Youtube",
+		Domain:         "https://youtube.com",
+		Port:           443,
+		ExpectedStatus: 200,
+	},
+	{
+		Name:           "Shopee",
+		Domain:         "https://shopee.com",
+		Port:           443,
+		ExpectedStatus: 200,
+	},
+	{
+		Name:           "Tokopedia",
+		Domain:         "https://tokopedia.com",
+		Port:           443,
+		ExpectedStatus: 200,
+	},
 }

@@ -10,7 +10,9 @@ import (
 )
 
 func StartBenchmark(listenPort uint) map[string]int {
-	result := map[string]int{}
+	var (
+		result = map[string]int{}
+	)
 
 	proxyClient, _ := url.Parse(fmt.Sprintf("socks5://0.0.0.0:%d", listenPort))
 	httpClient := &http.Client{
